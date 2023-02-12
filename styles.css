@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #d8dee4;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+  user-select: none;
+}
+
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.col-header {
+  width: 150px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  padding: 0.8rem 1rem;
+  color: #333;
+}
+
+.item {
+  width: 150px;
+  height: 66px;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  background: #f7f6f7;
+  padding: 0.8rem 1rem;
+  color: #333;
+  text-align: center;
+  cursor: grab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 150px;
+  height: 300px;
+  background-color: #f6f8fa;
+}
+
+.start {
+  background:#f7f6f7 ;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress {
+  background:#f7f6f7 ;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.done {
+  background:#f7f6f7 ;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hold{
+  background-color: #ffffff;
+}
+
+.hide{
+  display: none;
+}
+
+.hovered{
+  background-color: #f6f8fa9f
+}
